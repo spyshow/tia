@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>TiaAddIn</AssemblyTitle>
+    <Description>TIA Portal Add-In</Description>
+    <Company>Siemens</Company>
+    <Product>TiaAddIn</Product>
+    <Copyright>Copyright © Siemens 2023</Copyright>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TiaAddIn</RootNamespace>
+    <AssemblyName>TiaAddIn</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\\Newtonsoft.Json.13.0.3\\lib\\net45\\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Siemens.Engineering">
+      <HintPath>C:\\Program Files\\Siemens\\Automation\\Portal V18\\PublicAPI\\V18\\Siemens.Engineering.dll</HintPath>
+    </Reference>
+    <Reference Include="Siemens.Engineering.Hmi">
+      <HintPath>C:\\Program Files\\Siemens\\Automation\\Portal V18\\PublicAPI\\V18\\Siemens.Engineering.Hmi.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>
